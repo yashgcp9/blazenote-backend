@@ -35,7 +35,7 @@ app.use(
 );
 
 app.get("/", (c) => {
-  return c.text("Hello Yash!");
+  return c.text("Hello Yash Sanghavi!");
 });
 
 app.route("/notes", notes);
